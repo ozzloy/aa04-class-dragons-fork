@@ -45,17 +45,11 @@ describe("The all-dragons.js module file", () => {
       it("should have the `color` property be set to `White`", () => {
         expect(solution.falkor.color).to.equal(testFalkor.color);
       });
-  
-      it("should have the `lifeGoals` property be set correctly for each value", () => {
-        expect(solution.falkor.lifeGoals[0]).to.equal(
-          testFalkor.lifeGoals[0]
-        );
-        expect(solution.falkor.lifeGoals[1]).to.equal(
-          testFalkor.lifeGoals[1]
-        );
-        expect(solution.falkor.lifeGoals[2]).to.equal(
-          testFalkor.lifeGoals[2]
-        );
+
+      it("should have `lifeGoals` set correctly", () => {
+        expect(solution.falkor.lifeGoals[0]).to.equal(testFalkor.lifeGoals[0]);
+        expect(solution.falkor.lifeGoals[1]).to.equal(testFalkor.lifeGoals[1]);
+        expect(solution.falkor.lifeGoals[2]).to.equal(testFalkor.lifeGoals[2]);
       });
 
       it("should have the `friend` property be set to `Bastian`", () => {
@@ -87,17 +81,11 @@ describe("The all-dragons.js module file", () => {
       it("should have the `color` property be set to `White`", () => {
         expect(solution.smaug.color).to.equal(testSmaug.color);
       });
-      it("should have the `evilDoings` property be set correctly for each value", () => {
-        expect(solution.smaug.evilDoings[0]).to.equal(
-          testSmaug.evilDoings[0]
-        );
-        expect(solution.smaug.evilDoings[1]).to.equal(
-          testSmaug.evilDoings[1]
-        );
-        expect(solution.smaug.evilDoings[2]).to.equal(
-          testSmaug.evilDoings[2]
-        );
 
+      it("should have `evilDoings` set correctly", () => {
+        expect(solution.smaug.evilDoings[0]).to.equal(testSmaug.evilDoings[0]);
+        expect(solution.smaug.evilDoings[1]).to.equal(testSmaug.evilDoings[1]);
+        expect(solution.smaug.evilDoings[2]).to.equal(testSmaug.evilDoings[2]);
       });
 
       it("should have the `nemesis` property be set to `Dwarf King`", () => {
