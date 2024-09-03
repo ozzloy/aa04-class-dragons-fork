@@ -4,7 +4,7 @@ const expect = chai.expect;
 const sinon = require("sinon");
 const { fileContainsClass } = require("./helpers");
 
-const problemModulePath = "../all-dragons";
+const problemModulePath = "../classes/all-dragons";
 const solution = require(problemModulePath);
 
 const FriendlyDragon = require("../classes/friendly-dragon");
