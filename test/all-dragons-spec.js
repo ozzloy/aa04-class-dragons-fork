@@ -10,15 +10,15 @@ const EvilDragon = require("../classes/evil-dragon");
 
 describe("The all-dragons.js module file", () => {
   it("exports a variable `falkor`", () => {
-    expect(solution).to.have.property('falkor');
+    expect(solution).to.have.property("falkor");
   });
 
   it("exports a variable `smaug`", () => {
-    expect(solution).to.have.property('smaug');
+    expect(solution).to.have.property("smaug");
   });
 
   it("exports a variable `allDragons`", () => {
-    expect(solution).to.have.property('allDragons');
+    expect(solution).to.have.property("allDragons");
   });
 
   if (FriendlyDragon && solution) {
@@ -31,7 +31,7 @@ describe("The all-dragons.js module file", () => {
           "save Atreyu from the Nothing",
           "scare the local bullies into a dumpster",
         ],
-        "Bastian"
+        "Bastian",
       );
 
       it("should be an instance of the `FriendlyDragon` class", () => {
@@ -67,7 +67,7 @@ describe("The all-dragons.js module file", () => {
           "steal all your dwarven gold",
           "burn down your floating village",
         ],
-        "Dwarf King"
+        "Dwarf King",
       );
 
       it("should be an instance of the `EvilDragon` class", () => {
