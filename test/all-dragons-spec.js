@@ -1,15 +1,12 @@
 const path = require("path");
 const chai = require("chai");
 const expect = chai.expect;
-const sinon = require("sinon");
-const { fileContainsClass } = require("./helpers");
 
 const problemModulePath = "../classes/all-dragons";
 const solution = require(problemModulePath);
 
 const FriendlyDragon = require("../classes/friendly-dragon");
 const EvilDragon = require("../classes/evil-dragon");
-const Dragon = require("../classes/dragon");
 
 describe("The all-dragons.js module file", () => {
   it("exports a variable `falkor`", () => {
